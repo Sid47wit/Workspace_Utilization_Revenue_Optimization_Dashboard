@@ -1,0 +1,20 @@
+## Summary:
+
+### Data Analysis Key Findings
+
+*   The `wework_workspace_data.csv` file was successfully loaded and transferred to an in-memory SQLite table named `wework_data` for SQL-based analysis.
+*   **Workspace Utilization**:
+    *   The overall average workspace utilization across all data points was approximately 55.75%.
+    *   Utilization varied significantly by segment, with average rates ranging from a low of 22.5% (Hyderabad Hub A Hot Desk) to a high of 79.63% (Delhi Hub B Hot Desk).
+    *   Peak utilization reached 100% in at least one instance across the dataset, and for several specific segments (e.g., Delhi Hub A Hot Desk, Mumbai Hub B Private Office).
+    *   Monthly average utilization trends showed fluctuations, varying from a low of 40.88% in April 2025 to a high of 64.77% in November 2025.
+*   **Revenue Metrics**:
+    *   The overall total revenue recorded was \$270,697,117.
+    *   The overall average revenue per seat was approximately \$8,672.85.
+    *   "Private Office" desk types generated the highest average revenue per seat at \$11,759.90, significantly higher than "Dedicated Desk" (\$8,182.33) and "Hot Desk" (\$5,988.74).
+*   **Dashboard Visualizations**: A dashboard was successfully generated with four key plots: Monthly Average Workspace Utilization Trends, Average Workspace Utilization by Desk Type, Average Revenue Per Seat by Desk Type, and Total Revenue by Location. All plots were correctly titled, labeled, and included appropriate legends.
+
+### Insights or Next Steps
+
+*   **Optimize Private Office Offerings**: Given that "Private Offices" yield the highest average revenue per seat, there's a strong opportunity to explore expanding these offerings or enhancing their premium features to capitalize on this high-value segment.
+*   **Address Utilization Gaps**: The significant variance in utilization across different locations, buildings, and desk types suggests an opportunity to investigate factors contributing to low utilization (e.g., marketing, pricing, amenities) in underperforming segments and implement targeted strategies for improvement.
