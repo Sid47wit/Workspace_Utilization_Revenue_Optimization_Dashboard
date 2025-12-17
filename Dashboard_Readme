@@ -1,0 +1,35 @@
+# Workspace Utilization & Revenue Optimization Dashboard
+
+## Project Overview
+This project analyzes workspace utilization, revenue efficiency, and customer churn
+to support data-driven decisions in a flexible workspace environment like WeWork.
+
+The goal is to identify:
+- How efficiently seats are utilized
+- Which desk types generate higher revenue per seat
+- Which membership types are more prone to churn
+
+## Tools Used
+- Python (Pandas, NumPy) – data cleaning & feature engineering
+- Google Colab – analysis & metric creation
+- Tableau Public – interactive dashboard visualization
+
+## Key Metrics
+- Seat Utilization %
+- Average Revenue per Seat
+- Churn Rate by Membership Type
+
+## Dashboard Preview
+![Dashboard Preview](dashboard_preview.png)
+
+## Interactive Dashboard
+👉 View on Tableau Public:  
+**PASTE YOUR TABLEAU PUBLIC LINK HERE**
+
+## Key Insights
+- Private Offices generate the highest revenue per seat
+- Overall utilization (~56%) indicates unused capacity
+- Monthly memberships show higher churn compared to annual plans
+
+## Dataset
+Synthetic workspace data inspired by real-world coworking business models.
